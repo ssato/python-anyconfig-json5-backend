@@ -18,6 +18,10 @@ python-anyconfig-json5-backend
    :target: https://github.com/ssato/python-anyconfig-json5-backend/actions?query=workflow%3ATests
    :alt: GitHub Actions Test status
 
+.. image:: https://dev.azure.com/satorusatoh0471/python-anyconfig-json5-backend/_apis/build/status/ssato.python-anyconfig-json5-backend?branchName=master
+   :target: https://dev.azure.com/satorusatoh0471/python-anyconfig-json5-backend/_build/latest?definitionId=1
+   :alt: [Azure Pipelines Status]
+
 .. .. image:: https://img.shields.io/coveralls/ssato/python-anyconfig-json5-backend.svg
    :target: https://coveralls.io/r/ssato/python-anyconfig-json5-backend
    :alt: Coverage Status
