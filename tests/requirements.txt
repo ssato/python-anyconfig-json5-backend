@@ -1,0 +1,5 @@
+coveralls
+flake8
+pytest
+pycodestyle
+pylint
