@@ -14,17 +14,20 @@ Changelog:
 
 .. versionadded:: 0.0.1
 """
+import typing
+
 import json5
+
 import anyconfig.backend.base
 
 
-_LOAD_OPTS = """object_hook parse_float parse_int
+_LOAD_OPTS: typing.List[str] = """object_hook parse_float parse_int
 parse_constant object_pairs_hook""".split()
 
-_DUMP_OPTS = """skipkeys ensure_ascii check_circular allow_nan
+_DUMP_OPTS: typing.List[str] = """skipkeys ensure_ascii check_circular allow_nan
 indent separators default sort_keys""".split()
 
-_DICT_OPTS = 'object_pairs_hook object_hook'.split()
+_DICT_OPTS: typing.List[str] = 'object_pairs_hook object_hook'.split()
 
 
 class Parser(anyconfig.backend.base.StringStreamFnParser):
