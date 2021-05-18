@@ -38,12 +38,11 @@ class TestCase(unittest.TestCase):
                     self.assertTrue(isinstance(cnf, collections.OrderedDict))
 
                     anyconfig.dump(cnf, out_path)
-                    self.assertEqual(anyconfig.load(out_path,
-                                                    ac_ordered=False),
-                                     anyconfig.load(exp_path,
-                                                    ac_ordered=False))
+                    self.assertEqual(
+                        anyconfig.load(out_path, ac_ordered=False),
+                        anyconfig.load(exp_path, ac_ordered=False)
+                    )
                 except AssertionError as exc:
-                    raise AssertionError("file: {}, "
-                                         "exc={!s}".format(in_path, exc))
+                    raise AssertionError(f'file: {in_path}, exc={exc!s}')
 
 # vim:sw=4:ts=4:et:
