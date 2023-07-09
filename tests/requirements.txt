@@ -1,5 +1,8 @@
 coveralls
 flake8
-pytest
 pycodestyle
 pylint
+pytest
+pytest-cov
+pytest-profiling
+pytest-randomly
