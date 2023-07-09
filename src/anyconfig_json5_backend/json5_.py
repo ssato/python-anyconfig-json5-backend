@@ -24,8 +24,8 @@ import anyconfig.backend.base
 _LOAD_OPTS: typing.List[str] = """object_hook parse_float parse_int
 parse_constant object_pairs_hook""".split()
 
-_DUMP_OPTS: typing.List[str] = """skipkeys ensure_ascii check_circular allow_nan
-indent separators default sort_keys""".split()
+_DUMP_OPTS: typing.List[str] = """skipkeys ensure_ascii check_circular
+allow_nan indent separators default sort_keys""".split()
 
 _DICT_OPTS: typing.List[str] = 'object_pairs_hook object_hook'.split()
 
