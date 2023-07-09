@@ -1,4 +1,4 @@
-# Copyright (C) 2019 - 2020 Satoru SATOH <satoru.satoh@gmail.com>
+# Copyright (C) 2019 - 2023 Satoru SATOH <satoru.satoh@gmail.com>
 # SPDX-License-Identifier: MIT
 #
 # Ref. python -c "import json; help(json)"
